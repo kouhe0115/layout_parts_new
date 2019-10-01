@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5{
+.q5__content{
     position: relative;
     height: 500px;
     width: 500px;
