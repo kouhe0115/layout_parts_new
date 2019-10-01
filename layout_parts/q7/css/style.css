@@ -48,6 +48,10 @@
     vertical-align: middle;
 }
 
+.q7--table .q7__box:first-child{
+    padding-left: 0;
+}
+
 .q7--table .q7_box__text{
     font-size: 16px;
 }

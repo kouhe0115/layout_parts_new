@@ -32,6 +32,7 @@ img{
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
+  /* 言語に関係なく表示範囲に合わせて改行 */
 }
 
 /* 回答はここに書いてね */
