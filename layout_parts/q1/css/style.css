@@ -4,7 +4,7 @@
 .q1__contents{
   width: 900px;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
   background-color: #eff3f4;
 }

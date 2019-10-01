@@ -8,19 +8,14 @@
   background-color: #ECF1F2;
 }
 
-.q2__content{
-  margin: 0 auto;
-}
-
-
 .left__content{
   float: left;
-  margin: 0 20px 10px 0;
+  padding: 0 20px 10px 0;
 }
 
 .right__content{
   float: right;
-  margin: 0 0 10px 20px;
+  padding: 0 0 10px 20px;
 }
 
 img{
