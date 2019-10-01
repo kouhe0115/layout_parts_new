@@ -1,22 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4{
+
+.q4__contents{
   padding: 20px;
 }
 
-.q4__contents{
+.q4__content{
   display: table;
   width: 100%;
   background-color: #ecf1f2;
   margin-top: 20px;
 }
 
-.q4__contents:first-child{
+.q4__content:first-child{
   margin-top: 0;
 }
 
-.q4__contents__sell{
+.q4__content__sell{
   display: table-cell;
   padding: 20px;
   text-align: center;
