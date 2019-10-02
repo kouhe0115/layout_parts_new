@@ -9,7 +9,6 @@
 .q4__content{
   display: table;
   width: 100%;
-  background-color: #ecf1f2;
   margin-top: 20px;
 }
 
@@ -24,25 +23,25 @@
 }
 
 .pink__sell{
-  background-color: #FDC8B8;
+  background-color: #fdc8b8;
   width: 100px;
 }
 
 .purple__sell{
-  background-color: #E0ABD9;
+  background-color: #e0abd9;
 }
 
 .blue__sell{
-  background-color: #B6D8ED;
+  background-color: #b6d8ed;
   width: 100px;
 }
 
 .yellow__sell{
-  background-color: #E5D32E;
+  background-color: #e5d32e;
 }
 
 .red__sell{
-  background-color: #EC8F9A;
+  background-color: #ec8f9a;
 }
 
 .green__sell{
