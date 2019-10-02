@@ -5,22 +5,19 @@
   width: 900px;
   padding: 20px;
   margin: auto;
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
 }
 
 .left__content{
   float: left;
-  padding: 0 20px 10px 0;
+  margin: 0 20px 10px 0;
+  /* マージンに変更 */
 }
 
 .right__content{
   float: right;
-  padding: 0 0 10px 20px;
-}
-
-img{
-  height: 133px;
-  width: 200px;
+  margin: 0 0 10px 20px;
+  /* マージンに変更 */
 }
 
 .q2__text{
