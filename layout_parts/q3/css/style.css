@@ -3,7 +3,6 @@
 /* 回答はここに書いてね */
 .q3__contents{
   width: 100%;
-  border: 1px solid #dedede;
   table-layout: fixed;
 }
 
@@ -20,7 +19,6 @@
 
 .q3__contents td{
   line-height: 22px;
-  
 }
 
 .q3__contents th, .q3__contents td{
