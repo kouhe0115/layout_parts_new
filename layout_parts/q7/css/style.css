@@ -7,61 +7,47 @@
     clear: both;
 }
 
-.q7 .q7__box{
+.q7__content{
     width: 225px;
 }
 
-.q7 .q7__innner{
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ecf1f2;
-}
-
 /* ---float--- */
-.q7__innner{
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ecf1f2;
-}
-
-.q7--float .q7__box{
+.q7--float .q7__content{
     float: left;
     margin-left: 50px;
     font-size: 16px;
     box-sizing: border-box;
 }
 
-.q7--float .q7__box:first-child {
+.q7--float .q7__content:first-child {
     margin-left: 0;
 }
 
 /* ---table--- */
-.q7--table .q7__innner{
+.q7--table .q7__wrapper{
     display: table;
 }
 
-.q7--table .q7__box{
+.q7--table .q7__content{
     display: table-cell;
     padding-left: 50px;
     vertical-align: middle;
 }
 
-.q7--table .q7__box:first-child{
+.q7--table .q7__content:first-child{
     padding-left: 0;
 }
 
-.q7--table .q7_box__text{
+.q7--table .q7__text{
     font-size: 16px;
 }
 
 /* ---inlineblock--- */
-.q7--inlineblock .q7__inner{
+.q7--inlineblock .q7__wrapper{
     font-size: 0;
 }
 
-.q7--inlineblock .q7__box{
+.q7--inlineblock .q7__content{
     display: inline-block;
     margin-left: 50px;
     font-size: 16px;
@@ -69,47 +55,42 @@
     box-sizing: border-box;
 }
 
-.q7--inlineblock .q7__box:first-child{
+.q7--inlineblock .q7__content:first-child{
     margin-left: 0;
 }
 
 /* ---flex--- */
-.q7--flex .q7__inner{
+.q7--flex .q7__wrapper{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
-.q7--flex .q7__box{
+.q7--flex .q7__content{
     font-size: 16px;
     vertical-align: middle;
     box-sizing: border-box;
 }
 
 /* ---inline-blockとmargin--- */
-.q7 .q7__inner.is-full{
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.q7--margin .q7__box{
+.q7--margin .q7__content{
     vertical-align: top;
 }
 
-.q7--margin .q7__inner{
+.q7--margin .q7__wrapper{
     font-size: 0;
 }
 
-.q7--margin .q7__box.is-stable {
+.q7--margin .q7__content.is-stable{
     display: inline-block;
     width: 300px;
 }
 
-.q7--margin .q7__box__text{
+.q7--margin .q7__text{
     font-size: 16px;
 }
 
-.q7--margin .q7__box.is-flex {
+.q7--margin .q7__content.is-flex {
     display: inline-block;
     width: 100%;
     margin-left: -300px;
